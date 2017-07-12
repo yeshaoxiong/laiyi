@@ -1,0 +1,33 @@
+---
+permalink: /404.html
+---
+<html> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<title>出错啦！—— laiyi.tk</title>
+		<style>
+			.back{width:100%;height:550px;}
+			.back .show{width:600px;height:50px;line-height:550px;color:grey;font-size:25px;margin:0 auto;}
+		</style>
+	</head> 
+	<body> 
+		<div class="back">
+			<div class="show">
+				<script type="text/javascript"> 
+					var t=5;//设定跳转的时间 
+					setInterval("refer()",1000); //启动1秒定时 
+					function refer(){  
+						if(t==0){ 
+							location="http://www.yeshao.tk"; //#设定跳转的链接地址 
+						} 
+						document.getElementById('show').innerHTML="小主：该页面不存在，"+t+"秒后跳转回来仪珠宝首页！"; // 显示倒计时 
+						t--; // 计数器递减 
+						
+					} 
+				</script> 
+				<span id="show"></span> 
+			</div>
+		</div>
+
+	</body> 
+</html> 
